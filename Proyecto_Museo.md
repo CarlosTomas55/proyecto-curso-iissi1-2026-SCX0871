@@ -28,6 +28,8 @@ Subasta: Evento de venta pública donde se vende la obra a la persona que más d
 
 Puja: Acto de ofrecer una cantidad de dinero por una obra en subasta para intentar superar el precio actual establecido por una puja anterior.
 
+
+
 ## 3. Visión general del sistema
 El objetivo de este proyecto es solucionar el problema mencionado previamente mediante el desarrollo de una aplicación que cubra toda la información del museo, tanto la de las obras (Su ubicación, galería, estado...) como los trabajadores y los clientes, para estos últimos tenemos que cubrir también las compras de las piezas que quieran hacer o si quieren donar u ofrecer alguna pieza.
 
