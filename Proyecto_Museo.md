@@ -19,6 +19,7 @@ Debemos desarrollar una aplicación software centralizada que automatice el cont
 
 ## 3. Visión general del sistema
 
+texto prueba
 ### 3.1. Requisitos generales
 
 ### 3.2. Usuarios del sistema
