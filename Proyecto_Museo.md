@@ -5,11 +5,11 @@
 1. Naranjo Martin, Rafa
 1. Sanchez Zamora, Kevin Steeven
 1. Ropero Vega, Carlos Tomas
-1. Roca San Jose, Guillermo Santiago
+1. Roca San José, Guillermo Santiago
 
 ## 1. Introducción al problema.
-Nuestro museo de arte necesita gestionar colecciones complejas que requieren una sincronización entre las obras y las galerías en donde se exponen y las piezas guardadas en el almacén. 
-Además, nuestra institución interactúa con diversos factores, donde los visitan desean explorar el arte o adquirir arte, hasta el personal encargado de la administración y la conservación de las distintas obras de arte (curaduría). 
+Nuestro museo de arte necesita gestionar colecciones complejas que requieren una sincronización entre las obras, las galerías en donde se exponen y las guardadas en el almacén. 
+Además, nuestra institución interactúa con diversos factores, desde los visitantes que desean explorar el arte o adquirirlo, hasta el personal encargado de la administración y la conservación de las distintas obras de arte (curaduría). 
 
 La situación actual de la aplicación nos impide obtener una trazabilidad segura y exacta de las obras de arte (galerías/almacén), así como errores en la clasificación por tipo y género dentro de las galerías y los procesos de adquisición de piezas mediante compra directa o  subasta.
 
@@ -18,8 +18,8 @@ Debemos desarrollar una aplicación software centralizada que automatice el cont
 ## 2. Glosario de términos
 
 ## 3. Visión general del sistema
+El objetivo de este proyecto es solucionar el problema mencionado previamente mediante el desarrollo de una aplicación que cubra toda la información del museo, tanto la de las obras (Su ubicación, galería, estado...) como los trabajadores y los clientes, para estos últimos tenemos que cubrir también las compras de las piezas que quieran hacer o si quieren donar u ofrecer alguna pieza.
 
-texto prueba
 ### 3.1. Requisitos generales
 
 ### 3.2. Usuarios del sistema
