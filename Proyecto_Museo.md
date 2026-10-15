@@ -30,8 +30,14 @@ Puja: Acto de ofrecer una cantidad de dinero por una obra en subasta para intent
 El objetivo de este proyecto es solucionar el problema mencionado previamente mediante el desarrollo de una aplicación que cubra toda la información del museo, tanto la de las obras (Su ubicación, galería, estado...) como los trabajadores y los clientes, para estos últimos tenemos que cubrir también las compras de las piezas que quieran hacer o si quieren donar u ofrecer alguna pieza.
 
 ### 3.1. Requisitos generales
+La aplicación tiene que poder: Guardar la información de los usuarios, empleado o cliente, la información de las obras de arte, de las galerías, de las subastas, de las compras y de las ventas y del almacén.
 
 ### 3.2. Usuarios del sistema
+Esta aplicación apunta a tener estos usuarios:
+
+- Cliente: Que pueda comprar una entrada, ver las obras que están a la venta, poder unirse a las subastas disponibles, en general, obtener información del sitio
+- Empleado: Los empleado podrán ver su turno y dónde hacerlo, los guías, el servicio de limpieza, el de mantenimiento de las piezas, la seguridad... Así se podrá tener todo bien organizado
+- Administrado: Verlo todo, que pueda ver donde están los empleados, la información del cliente sobre el museo, si ha comprado si participa en subastas...
 
 ## 4. Catálogo de requisitos
 
