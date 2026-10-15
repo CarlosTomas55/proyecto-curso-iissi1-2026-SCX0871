@@ -17,11 +17,17 @@ Debemos desarrollar una aplicación software centralizada que automatice el cont
 
 ## 2. Glosario de términos
 Obra de Arte: Es una pieza artística individual que forma parte del catálogo del museo.
+
 Galería: Sala física de exposición dentro del museo donde se exhiben las obras al público bajo un tipo y género específicos.
+
 Almacén: Lugar donde se guardan y conservan las obras que no están expuestas en ninguna galería.
+
 Compra: Adquisición directa de una obra de arte disponible a cambio de un precio fijo establecido.
+
 Subasta: Evento de venta pública donde se vende la obra a la persona que más dinero esté dispuesto a pagar.
+
 Puja: Acto de ofrecer una cantidad de dinero por una obra en subasta para intentar superar el precio actual establecido por una puja anterior.
+
 ## 3. Visión general del sistema
 El objetivo de este proyecto es solucionar el problema mencionado previamente mediante el desarrollo de una aplicación que cubra toda la información del museo, tanto la de las obras (Su ubicación, galería, estado...) como los trabajadores y los clientes, para estos últimos tenemos que cubrir también las compras de las piezas que quieran hacer o si quieren donar u ofrecer alguna pieza.
 
