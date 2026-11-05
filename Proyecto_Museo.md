@@ -135,7 +135,7 @@ Resultado esperado: el sistema bloquea la modificación hasta que finalice el pr
 
 ## 5. Modelo conceptual
 
-<img width="4080" height="3060" alt="1000052475" src="https://github.com/user-attachments/assets/53291790-f177-4c8e-9c85-21cc58f25085" />
+<img width="2720" height="2720" alt="modelo_conceptual_subastas_obras_arte" src="https://github.com/user-attachments/assets/c3ec88b3-4472-4a1b-b858-9e2e550ad67a" />
 
 ### 5.1. Diagramas de clases UML
 
