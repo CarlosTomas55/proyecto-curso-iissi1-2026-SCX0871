@@ -65,33 +65,33 @@ RF-5.4: Eliminación de almacenes
 #### 4.1.1. Requisitos de información
 
 Como administrador del sistema, quiero gestionar la siguiente información de obras de arte:
-  Titulo
-  Fecha de creación
-  Tipo: Tipo obra de arte
+Titulo
+Fecha de creación
+Tipo: Tipo obra de arte
 Como administrador del sistema, quiero gestionar la siguiente información de Empleado:
-  Salario
+Salario
 Como administrador del sistema, quiero gestionar la siguiente información de Almacén:
-  Nombre
-  Ubicación
-  Capacidad
+Nombre
+Ubicación
+Capacidad
 Como administrador del sistema, quiero gestionar la siguiente información de Visitante:
-  Nombre
-  Fecha de nacimiento
+Nombre
+Fecha de nacimiento
 Como administrador del sistema, quiero gestionar la siguiente información de Galería:
-  Nombre
-  Ubicación
-  Fecha de exposicion
-  Tipo: Tipo obra de arte
+Nombre
+Ubicación
+Fecha de exposicion
+Tipo: Tipo obra de arte
 Como administrador del sistema, quiero gestionar la siguiente información de Puja:
-  Precio
-  Fecha
+Precio
+Fecha
 Como administrador del sistema, quiero gestionar la siguiente información de Usuario:
-  Email
-  Contraseña
-  Como administrador del sistema, quiero gestionar la siguiente información de Subasta:
-    Fecha de inicio
-    Fecha de fin
-    Precio mínimo
+Email
+Contraseña
+Como administrador del sistema, quiero gestionar la siguiente información de Subasta:
+Fecha de inicio
+Fecha de fin
+Precio mínimo
   
 
 #### 4.1.2. Reglas de negocio
