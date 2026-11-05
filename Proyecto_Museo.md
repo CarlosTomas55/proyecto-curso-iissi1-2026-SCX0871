@@ -24,7 +24,6 @@ El objetivo de este proyecto es solucionar el problema mencionado previamente me
 
 Como visitante quiero poder pujar por obras de arte. 
 Como empleado quiero poder gestionar almacenes.
-Como empleado 
 
 ### 3.2. Usuarios del sistema
 Esta aplicación apunta a tener estos usuarios:
@@ -37,61 +36,85 @@ Esta aplicación apunta a tener estos usuarios:
 
 ### 4.1. Requisitos funcionales
 
-RF-1.1: Listado de obras de arte 
-RF-1.2: Creación de obras de arte 
-RF-1.3: Edición de obras de arte 
-RF-1.4: Eliminación de obras de arte 
+RF-1.1: Listado de obras de arte
+RF-1.2: Creación de obras de arte
+RF-1.3: Edición de obras de arte
+RF-1.4: Eliminación de obras de arte
 
-RF-2.1: Listado de galerías 
-RF-2.2: Creación de galerías 
-RF-2.3: Edición de galerías 
-RF-2.4: Eliminación de galerías 
+RF-2.1: Listado de galerías
+RF-2.2: Creación de galerías
+RF-2.3: Edición de galerías
+RF-2.4: Eliminación de galerías
 
-RF-3.1: Listado de pujas 
-RF-3.2: Creación de pujas 
-RF-3.3: Edición de pujas 
-RF-2.4: Eliminación de pujas 
+RF-3.1: Listado de pujas
+RF-3.2: Creación de pujas
+RF-3.3: Edición de pujas
+RF-2.4: Eliminación de pujas
 
-RF-4.1: Listado de usuarios 
-RF-4.2: Creación de usuarios 
-RF-4.3: Edición de usuarios 
-RF-4.4: Eliminación de usuarios 
+RF-4.1: Listado de usuarios
+RF-4.2: Creación de usuarios
+RF-4.3: Edición de usuarios
+RF-4.4: Eliminación de usuarios
 
-RF-5.1: Listado de almacenes 
-RF-5.2: Creación de almacenes 
-RF-5.3: Edición de almacenes 
-RF-5.4: Eliminación de almacenes 
+RF-5.1: Listado de almacenes
+RF-5.2: Creación de almacenes
+RF-5.3: Edición de almacenes
+RF-5.4: Eliminación de almacenes
 
 #### 4.1.1. Requisitos de información
 
 - Como administrador del sistema, quiero gestionar la siguiente información de obras de arte:
--- Titulo
--- Fecha de creación
--- Tipo: Tipo obra de arte
+
+Titulo
+
+Fecha de creación
+
+Tipo: Tipo obra de arte
 - Como administrador del sistema, quiero gestionar la siguiente información de Empleado:
--- Salario
+Salario
 - Como administrador del sistema, quiero gestionar la siguiente información de Almacén:
--- Nombre
--- Ubicación
--- Capacidad
+
+Nombre
+
+Ubicación
+
+Capacidad
+
 - Como administrador del sistema, quiero gestionar la siguiente información de Visitante:
--- Nombre
--- Fecha de nacimiento
+
+Nombre
+
+Fecha de nacimiento
+
 - Como administrador del sistema, quiero gestionar la siguiente información de Galería:
--- Nombre
--- Ubicación
--- Fecha de exposicion
--- Tipo: Tipo obra de arte
+
+Nombre
+
+Ubicación
+
+Fecha de exposicion
+
+Tipo: Tipo obra de arte
+
 - Como administrador del sistema, quiero gestionar la siguiente información de Puja:
--- Precio
--- Fecha
+
+Precio
+
+Fecha
+
 - Como administrador del sistema, quiero gestionar la siguiente información de Usuario:
--- Email
--- Contraseña
+
+Email
+
+Contraseña
+
 - Como administrador del sistema, quiero gestionar la siguiente información de Subasta:
--- Fecha de inicio
--- Fecha de fin
--- Precio mínimo
+
+Fecha de inicio
+
+Fecha de fin
+
+Precio mínimo
 
 #### 4.1.2. Reglas de negocio
 
