@@ -2,10 +2,10 @@
 
 ## Miembros del grupo L7-DF-5
 
-1. Naranjo Martin, Rafa
-1. Sanchez Zamora, Kevin Steeven
-1. Ropero Vega, Carlos Tomas
-1. Roca San José, Guillermo Santiago
+1. Naranjo Martín, Rafael
+2. Sánchez Zamora, Kevin Steeven
+3. Ropero Vega, Carlos Tomás
+4. Roca San José, Guillermo Santiago
 
 ## 1. Introducción al problema.
 Nuestro museo de arte necesita gestionar colecciones complejas que requieren una sincronización entre las obras, las galerías en donde se exponen y las guardadas en el almacén. 
@@ -16,21 +16,15 @@ La situación actual de la aplicación nos impide obtener una trazabilidad segur
 Debemos desarrollar una aplicación software centralizada que automatice el control de inventario de obras de arte, valide la asignación a galerías y medidas curatoriales, gestione usuario diferenciados (clientes, empleados, administrador) y proporcione un comercio en tiempo real. 
 
 ## 2. Glosario de términos
-Obra de Arte
-
-Galería
-
-Almacén
-
-Subasta
-
-Puja
 
 ## 3. Visión general del sistema
 El objetivo de este proyecto es solucionar el problema mencionado previamente mediante el desarrollo de una aplicación que cubra toda la información del museo, tanto la de las obras (su ubicación, galería, estado...) como los trabajadores y los clientes, para estos últimos debe cubrir también las compras de las piezas que quieran hacer o si quieren donar u ofrecer alguna pieza.
 
 ### 3.1. Requisitos generales
-La aplicación tiene que poder: Guardar la información de los usuarios (empleados o clientes), la información de las obras de arte, de las galerías, de las subastas, de las compras, de las ventas y del almacén.
+
+Como visitante quiero poder pujar por obras de arte. 
+Como empleado quiero poder gestionar almacenes.
+Como empleado 
 
 ### 3.2. Usuarios del sistema
 Esta aplicación apunta a tener estos usuarios:
@@ -43,19 +37,30 @@ Esta aplicación apunta a tener estos usuarios:
 
 ### 4.1. Requisitos funcionales
 
-RF-01: el sistema debe permitir listar todas las obras de are registradas en el inventario general del museo.
+RF-1.1: Listado de obras de arte 
+RF-1.2: Creación de obras de arte 
+RF-1.3: Edición de obras de arte 
+RF-1.4: Eliminación de obras de arte 
 
-RF-02: el sistema deber permitir consultar el detalle completo de una obra e arte específica(autor, tipo, género, valor y estado de ubicación).
+RF-2.1: Listado de galerías 
+RF-2.2: Creación de galerías 
+RF-2.3: Edición de galerías 
+RF-2.4: Eliminación de galerías 
 
-RF-03: el sistema deber permitir listar todas la galerías del museo junto con las obras de are expuestas en cada una de ellas. 
+RF-3.1: Listado de pujas 
+RF-3.2: Creación de pujas 
+RF-3.3: Edición de pujas 
+RF-2.4: Eliminación de pujas 
 
-RF-04:  el sistema deber permitir consultar el listado de obras de arte que se encuentran actualmente almacenadas en el almacén. 
+RF-4.1: Listado de usuarios 
+RF-4.2: Creación de usuarios 
+RF-4.3: Edición de usuarios 
+RF-4.4: Eliminación de usuarios 
 
-RF-05: el sistema deber permitir listar el historial de compras realizadas por un cliente específico.
-
-RF-06: el sistemas deber permitir consultar las subastas activas, finalizadas y el listado de pujas asociadas a cada una. 
-
-RF-07: el sistema deber permitir listar los empleados registrados y sus área de asignación dentro del museo. 
+RF-5.1: Listado de almacenes 
+RF-5.2: Creación de almacenes 
+RF-5.3: Edición de almacenes 
+RF-5.4: Eliminación de almacenes 
 
 #### 4.1.1. Requisitos de información
 
@@ -67,15 +72,12 @@ Subasta: fecha de inicio, fecha de fin, precio inicial, estado
 
 #### 4.1.2. Reglas de negocio
 
-RN-01 (Ubicación obligatoria): toda obra de arte debe estar asignada a una galería específica o, en su defecto, encontrarse registrada obligatoriamente en el almacén del museo.
+RN-01: No se puede superar la capacidad que un almacén puede almacenar obras de arte 
+RN-02: Una obra no puede estar en un almacén y en una galería al mismo tiempo 
+RN-03: Una galería expone obras de arte del mismo tipo 
+RN-04: El precio de la puja del visitante deber ser mayor a la mitad de la anterior puja 
+RN-05: El precio de la puja debe ser mayor al precio mínimo de la subasta. 
 
-RN-02 (Coherencia curatorial): una galería solo puede exponer obras de arte que coincidan exactamente con el tipo y género definidos para dicha galería.
-
-RN-03 (Exclusividad de ubicación): una obra de arte no puede estar expuesta en una galería y en el almacén de forma simultánea. 
-
-RN-04 (Restricción de transacciones): únicamente los usuarios registrados con el rol de cliente tienen permitido realizar compras directas o emitir pujas en las subastas. 
-
-RN-05 (Bloqueo por subasta/venta): una obra que se encuentre participando una subasta o que haya sido comprada no puede ser modificada en su ubicación ni reasignada a galerías hasta concluir con el proceso. 
 
 ### 4.2. Mapa de historias de usuario (opcional)
 
