@@ -167,7 +167,7 @@ Precio mínimo
 
 - Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
 
-|        | Almacén    | obraDeArte | Galería   | seExponen  |  puja       |   Subasta  |   seHacen  |
+|        | Almacén    | obraDeArte | Galería   | seExponen  |  Puja       |   Subasta  |   seHacen  |
 |:------ |:-----------|:-----------|:----------|:-----------|:------------|:-----------|:-----------|
 | RN-01  | X          |            |           |            |             |            |            |
 | RN-02  |            | X          |           |            |             |            |            |
