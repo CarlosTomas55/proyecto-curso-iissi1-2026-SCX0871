@@ -161,7 +161,7 @@ Precio mínimo
 
 ### 5.2. Escenarios de prueba
 
-- con descripción textual y diagrama de objetos UML.
+<img width="2720" height="1960" alt="diagrama_objetos_almacen_obras" src="https://github.com/user-attachments/assets/e74a2aba-fa23-4426-9c78-24e1526a00c6" />
 
 ## 6. Matrices de trazabilidad
 
