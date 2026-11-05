@@ -151,38 +151,13 @@ Precio mínimo
 
 ### 4.4. Pruebas de aceptación de reglas de negocio
 
-RN-01: ubicación obligatoria.
-Acción: un curador intenta guardar una obra sin seleccionar galería ni marcar su registro en almacén.
 
-Resultado esperado: el sistema bloquea el guardado y exige asignar una galería existente o enviarla al almacén.
-
-RN-02: coherencia curatorial.
-Acción: un curador intenta asignar un cuadro (pintura / impresionista) a una galería configurada solo para escultura / contemporáneo.
-
-Resultado esperado: el sistema cancela la asignación por incompatibilidad de tipo y género entre la obra y la galería.
-
-RN-03: exclusividad de ubicación.
-Acción: se asigna a una galería una obra que estaba en el almacén.
-
-Resultado esperado: el sistema actualiza la ubicación a la galería y la elimina automáticamente del inventario de almacén
-
-RN-04: restricción de transacciones.
-Acción: un usuario con rol Empleado intenta comprar una obra o pujar en una subasta.
-
-Resultado esperado: el sistema deniega la acción, notificando que solo los usuarios con clientes pueden realizar transacciones.
-
-RN-05: bloqueo por subasta / venta.
-Acción: un empleado intenta reubicar o cambiar de galería una obra en subasta activa o previamente vendida.
-
-Resultado esperado: el sistema bloquea la modificación hasta que finalice el proceso o se cancele la transacción.
 
 ## 5. Modelo conceptual
 
-<img width="2720" height="2720" alt="modelo_conceptual_subastas_obras_arte" src="https://github.com/user-attachments/assets/c3ec88b3-4472-4a1b-b858-9e2e550ad67a" />
-
 ### 5.1. Diagramas de clases UML
 
-- con restricciones.
+<img width="2720" height="2720" alt="modelo_conceptual_subastas_obras_arte" src="https://github.com/user-attachments/assets/c3ec88b3-4472-4a1b-b858-9e2e550ad67a" />
 
 ### 5.2. Escenarios de prueba
 
