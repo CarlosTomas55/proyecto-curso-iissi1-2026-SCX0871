@@ -167,13 +167,12 @@ Precio mínimo
 
 - Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
 
-|       | EntidadX   | AsociaciónX  | RestricciónX  | Entidad2 ...   | 
-|:------|:-----------|:-----------|:-----------|:-----------|
-| RI-1  | X          | X          | X          | X          |
-| RI-2  |            | X          |            | X          |
-| RF-1  |            | X          |            | X          |
-| RF-2  | X          |            | X          | X          |
-| RN-1  |            | X          |            |            |
-| RN-2  | X          | X          | X          |            |
-| ...   |            |            |            |            |
+|        | Almacén    | obraDeArte | Galería   | seExponen  |  puja       |   Subasta  |   seHacen  |
+|:------ |:-----------|:-----------|:----------|:-----------|:------------|:-----------|:-----------|
+| RN-01  | X          |            |           |            |             |            |            |
+| RN-02  |            | X          |           |            |             |            |            |
+| RN-03  |            |            | X         | X          |             |            |            |
+| RN-04  |            |            |           |            | X           | X          | X          |
+| RN-05  |            |            |           |            | X           | X          | X          |
+
 
