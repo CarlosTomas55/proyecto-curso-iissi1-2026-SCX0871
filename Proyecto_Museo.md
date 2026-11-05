@@ -64,43 +64,42 @@ RF-5.4: Eliminación de almacenes
 
 #### 4.1.1. Requisitos de información
 
-Como administrador del sistema, quiero gestionar la siguiente información de obras de arte:
-Titulo
-Fecha de creación
-Tipo: Tipo obra de arte
-Como administrador del sistema, quiero gestionar la siguiente información de Empleado:
-Salario
-Como administrador del sistema, quiero gestionar la siguiente información de Almacén:
-Nombre
-Ubicación
-Capacidad
-Como administrador del sistema, quiero gestionar la siguiente información de Visitante:
-Nombre
-Fecha de nacimiento
-Como administrador del sistema, quiero gestionar la siguiente información de Galería:
-Nombre
-Ubicación
-Fecha de exposicion
-Tipo: Tipo obra de arte
-Como administrador del sistema, quiero gestionar la siguiente información de Puja:
-Precio
-Fecha
-Como administrador del sistema, quiero gestionar la siguiente información de Usuario:
-Email
-Contraseña
-Como administrador del sistema, quiero gestionar la siguiente información de Subasta:
-Fecha de inicio
-Fecha de fin
-Precio mínimo
-  
+- Como administrador del sistema, quiero gestionar la siguiente información de obras de arte:
+-- Titulo
+-- Fecha de creación
+-- Tipo: Tipo obra de arte
+- Como administrador del sistema, quiero gestionar la siguiente información de Empleado:
+-- Salario
+- Como administrador del sistema, quiero gestionar la siguiente información de Almacén:
+-- Nombre
+-- Ubicación
+-- Capacidad
+- Como administrador del sistema, quiero gestionar la siguiente información de Visitante:
+-- Nombre
+-- Fecha de nacimiento
+- Como administrador del sistema, quiero gestionar la siguiente información de Galería:
+-- Nombre
+-- Ubicación
+-- Fecha de exposicion
+-- Tipo: Tipo obra de arte
+- Como administrador del sistema, quiero gestionar la siguiente información de Puja:
+-- Precio
+-- Fecha
+- Como administrador del sistema, quiero gestionar la siguiente información de Usuario:
+-- Email
+-- Contraseña
+- Como administrador del sistema, quiero gestionar la siguiente información de Subasta:
+-- Fecha de inicio
+-- Fecha de fin
+-- Precio mínimo
 
 #### 4.1.2. Reglas de negocio
 
-RN-01: No se puede superar la capacidad que un almacén puede almacenar obras de arte 
-RN-02: Una obra no puede estar en un almacén y en una galería al mismo tiempo 
-RN-03: Una galería expone obras de arte del mismo tipo 
-RN-04: El precio de la puja del visitante deber ser mayor a la mitad de la anterior puja 
-RN-05: El precio de la puja debe ser mayor al precio mínimo de la subasta. 
+- RN-01: No se puede superar la capacidad que un almacén puede almacenar obras de arte
+- RN-02: Una obra no puede estar en un almacén y en una galería al mismo tiempo 
+- RN-03: Una galería expone obras de arte del mismo tipo 
+- RN-04: El precio de la puja del visitante deber ser mayor a la mitad de la anterior puja 
+- RN-05: El precio de la puja debe ser mayor al precio mínimo de la subasta. 
 
 
 ### 4.2. Mapa de historias de usuario (opcional)
@@ -134,5 +133,29 @@ Acción: un empleado intenta reubicar o cambiar de galería una obra en subasta 
 
 Resultado esperado: el sistema bloquea la modificación hasta que finalice el proceso o se cancele la transacción.
 
+## 5. Modelo conceptual
 
+<img width="4080" height="3060" alt="1000052475" src="https://github.com/user-attachments/assets/53291790-f177-4c8e-9c85-21cc58f25085" />
+
+### 5.1. Diagramas de clases UML
+
+- con restricciones.
+
+### 5.2. Escenarios de prueba
+
+- con descripción textual y diagrama de objetos UML.
+
+## 6. Matrices de trazabilidad
+
+- Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
+
+|       | EntidadX   | AsociaciónX  | RestricciónX  | Entidad2 ...   | 
+|:------|:-----------|:-----------|:-----------|:-----------|
+| RI-1  | X          | X          | X          | X          |
+| RI-2  |            | X          |            | X          |
+| RF-1  |            | X          |            | X          |
+| RF-2  | X          |            | X          | X          |
+| RN-1  |            | X          |            |            |
+| RN-2  | X          | X          | X          |            |
+| ...   |            |            |            |            |
 
